@@ -36,5 +36,3 @@ nyc_airbnb |>
     x = ~lat, y = ~long, type = "scatter", mode = "markers",
     color = ~price, text = ~text_label, alpha = 0.5)
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
